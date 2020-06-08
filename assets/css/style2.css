@@ -1,0 +1,84 @@
+/* Written by Brandon Hong
+  ||CSS for alternate pages */
+
+/*---NAVBAR---*/
+.navbar
+{
+  font-size: 1rem;       /* 1rem = 16px */
+  letter-spacing: .1rem;
+}
+
+.fixed-top
+{
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-brand
+{
+  float: center;
+  padding-right: 38%;
+}
+
+/* HAMBURGER */
+.navbar-toggler
+{
+  float: left;
+}
+
+/* navbar logo */
+.navbar-brand img
+{
+  height: 3.5rem;
+}
+
+/* navbar extra spacing */
+.navbar-nav li
+{
+  padding-right: .7rem;
+}
+
+/* nav link styling */
+.navbar-dark .navbar-nav .nav-link
+{
+  color: white;
+  padding-top: .8rem;
+}
+
+/* .active and :hover nav link style */
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover
+{
+  color: #ddc65f;
+}
+
+/* #### GUARANTEE ##### */
+/* .container
+{
+  width: 80rem;
+  max-width: 80rem;
+}
+
+.jumbo-center
+{
+  width: 100%;
+  margin-top: 80px;
+  
+} */
+#guarantee-sect
+{
+  margin-top: 100px;
+}
+
+#guarantee
+{
+  width: 80%;
+  max-width: 80%;
+  /* padding: 100px 0px 0px 10px; */
+  /* margin: 100px 0px 0px 10px; */
+  background-color: #e6e6e6;
+}
+
+#guarantee h1
+{
+  text-decoration: underline;
+}

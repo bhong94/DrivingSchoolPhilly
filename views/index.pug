@@ -1,0 +1,58 @@
+doctype html
+head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge,chrome=1")
+    title Custom Homepage
+    // Displayed when cursor hovers over chrome tab
+    meta(name="description" content="custom homepage")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    // insert here -> scripts and css references
+    link(href="https://fonts.googleapis.com/css?family=Sonsie+One" rel="stylesheet")
+    link(rel="stylesheet" href="/css/stylesheet.css" type="text/css")
+
+    body
+        header
+           .container
+                #logo
+                    h1
+                        a(href="/") Complete Auto br Driving School
+                #navbar
+                    ul.navbar
+                        li
+                            a(href="/") HOME
+                        li
+                            a(href="") ABOUT
+                        li
+                            a(href="/login") LOGIN
+                        li
+                            a(href="/register") CREATE ACCOUNT
+        section#about-sect
+            .container
+                #about-box
+                    h1 Customize Your Homepage
+                    p Personalize with social media integration, custom page design/layout, music, pictures and more!
+
+        section#login-sect
+            .container
+                ul.login
+                    li
+                        button#login-btn(type="button" onclick="location.href='/login';") Login
+                    li
+                        button#register-btn.btn(type="button" onclick="location.href='/register';") Sign Up
+
+        section#portfolio-sect
+            .container
+                .portfolio
+                    img(src="/images/")
+                .portfolio
+                    img(src="/images/")
+                .portfolio
+                    img(src="/images/")
+                .portfolio
+                    img(src="/images/")
+
+        footer
+            .container
+                p Brandon Hong - Copyright &copy; 2019
+
+                            

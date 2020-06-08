@@ -1,0 +1,181 @@
+
+
+/* Global */
+body
+{
+    /*background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/assets/images/gotham.gif);*/
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden; 
+}
+
+/* Navbar */
+header
+{
+    min-height: 70px;
+    color: white;
+    padding-top: 30px;
+    border-bottom: white 3px solid;
+    border-top: white 3px solid;
+    background-color: black;
+}
+
+.navbar-container
+{
+    width: 95%;
+    float: center;
+    margin-left: 2.5%;
+}
+
+.navbar
+{
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+    
+}
+
+.navbar li
+{
+    display: inline-block;
+}
+
+.navbar li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.navbar li a:hover
+{
+    border: 3px solid white;
+}
+
+#navbar
+{
+    max-width: 1500px;
+}
+
+
+/* Logo */
+#logo
+{
+    width: 250px;
+    word-wrap: break-word;
+    float: left;
+}
+
+#logo h1 a
+{
+    color: white;
+    text-decoration: none;
+}
+
+#logo h1
+{
+    float: center;
+    margin: 0 0 0 0;
+    font-family: 'Sonsie One', cursive;
+    font-size: 20px;
+}
+
+/* head Section */
+#head-sect
+{
+    min-height: 400px;
+    background: url('../images/bg_landing.jpg') no-repeat center center;
+    background-size: 100% 100%;
+    /* animation: zoom 10s; */
+    text-align: center;
+    color: white;
+}
+/* @keyframes zoom
+{
+    0%
+    {
+        background-size: 200% 200%;
+    }
+    100%
+    {
+        background-size: 100% 100%;
+    }
+} */
+
+#head-sect h1
+{
+    font-size: 42px;
+    display: inline-block;
+}
+
+#head-sect p
+{
+    font-size: 20px;
+    display: inline-block;
+}
+
+#head-sect #head-box
+{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    /* min-height: 200px; */
+    min-height: 30%;
+    margin-top: 70px;
+}
+
+/* Login Section */
+#login-sect
+{
+    min-height: 100px;
+    background-color: black;
+    text-align: center;
+    margin-top: -20px;
+    border-top: white 3px solid;
+    border-bottom: white 3px solid;
+}
+
+.login li
+{
+    display: inline-block;
+    padding: 15px 20px;
+
+}
+
+#login-btn
+{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-family: 'Sonsie One', cursive;
+    padding: 14px 40px;
+}
+
+#register-btn
+{
+    background-image: url('../images/metal2.jpg');
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 20px;  
+    font-family: 'Sonsie One', cursive; 
+    padding: 14px 40px;
+    border: rgba(255, 255, 255, 0.288) solid;
+}
+
+#register-btn:hover
+{
+    border: red solid;
+}
+
+.login li button:hover 
+{
+    border: rgb(255, 0, 0) solid;
+}
+
